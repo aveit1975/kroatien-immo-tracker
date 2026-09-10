@@ -24,16 +24,26 @@ def run():
     neue_daten = []
 
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
-        page = browser.new_page()
+        # 1. Tarnung für den Bot aktivieren (User-Agent + Flags)
+        browser = p.chromium.launch(headless=True, args=['--disable-blink-features=AutomationControlled'])
+        context = browser.new_context(
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            viewport={"width": 1920, "height": 1080}
+        )
+        page = context.new_page()
 
         # Schleife: Jede URL nacheinander abrufen
         for ziel in URLS:
             try:
                 print(f"Scrape {ziel['Typ']} in {ziel['Region']}...")
-                page.goto(ziel['url'], wait_until="networkidle")
-                html = page.content()
                 
+                # 2. Timeout erhöhen und 'domcontentloaded' statt 'networkidle' nutzen
+                page.goto(ziel['url'], wait_until="domcontentloaded", timeout=60000)
+                
+                # 3. Explizit warten, bis die Inserate im HTML auftauchen (max 15 Sek)
+                page.wait_for_selector("li.EntityList-item", timeout=15000)
+                
+                html = page.content()
                 soup = BeautifulSoup(html, "html.parser")
                 inserate = soup.find_all("li", class_="EntityList-item")
 
@@ -59,8 +69,8 @@ def run():
                             "Status": "Aktiv"
                         })
                 
-                # Kurze Pause, um den Server nicht zu überlasten
-                time.sleep(2) 
+                # Kurze Pause, um den Njuškalo-Server nicht zu überlasten
+                time.sleep(3) 
             except Exception as e:
                 print(f"Fehler bei {ziel['url']}: {e}")
                 continue
