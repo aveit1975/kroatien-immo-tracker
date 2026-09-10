@@ -1,0 +1,37 @@
+name: Njuskalo Daily Tracker
+
+on:
+  schedule:
+    - cron: '0 6 * * *' # Jeden Tag um 6:00 Uhr UTC
+  workflow_dispatch: # Erlaubt manuellen Start per Klick
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v3
+
+      - name: Python einrichten
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Abhängigkeiten installieren
+        run: |
+          pip install -r requirements.txt
+          playwright install --with-deps chromium
+
+      - name: Scraper ausführen
+        run: python scraper.py
+
+      - name: CSV im Repository speichern
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+          git add njuskalo_daten.csv
+          git commit -m "Tägliches Daten-Update" || echo "Keine Änderungen"
+          git push
