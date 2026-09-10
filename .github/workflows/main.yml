@@ -32,6 +32,6 @@ jobs:
         run: |
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions@github.com"
-          git add njuskalo_daten.csv
+          git add njuskalo_kueste_daten.csv
           git commit -m "Tägliches Daten-Update" || echo "Keine Änderungen"
           git push
