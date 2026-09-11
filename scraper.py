@@ -5,26 +5,25 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 import time
 
-# Die Liste aller Küstenregionen (Häuser & Wohnungen)
+# Die Liste für Index Oglasi (Alle vier Küstenregionen)
 URLS = [
-    {"url": "https://www.njuskalo.hr/prodaja-stanova/istarska", "Region": "Istrien", "Typ": "Wohnung"},
-    {"url": "https://www.njuskalo.hr/prodaja-kuca/istarska", "Region": "Istrien", "Typ": "Haus"},
-    {"url": "https://www.njuskalo.hr/prodaja-stanova/primorsko-goranska", "Region": "Kvarner", "Typ": "Wohnung"},
-    {"url": "https://www.njuskalo.hr/prodaja-kuca/primorsko-goranska", "Region": "Kvarner", "Typ": "Haus"},
-    {"url": "https://www.njuskalo.hr/prodaja-stanova/zadarska", "Region": "Zadar", "Typ": "Wohnung"},
-    {"url": "https://www.njuskalo.hr/prodaja-kuca/zadarska", "Region": "Zadar", "Typ": "Haus"},
-    {"url": "https://www.njuskalo.hr/prodaja-stanova/splitsko-dalmatinska", "Region": "Split-Dalmatien", "Typ": "Wohnung"},
-    {"url": "https://www.njuskalo.hr/prodaja-kuca/splitsko-dalmatinska", "Region": "Split-Dalmatien", "Typ": "Haus"}
+    {"url": "https://www.index.hr/oglasi/nekretnine/prodaja-stanova/istarska-zupanija/pretraga", "Region": "Istrien", "Typ": "Wohnung"},
+    {"url": "https://www.index.hr/oglasi/nekretnine/prodaja-kuca/istarska-zupanija/pretraga", "Region": "Istrien", "Typ": "Haus"},
+    {"url": "https://www.index.hr/oglasi/nekretnine/prodaja-stanova/primorsko-goranska-zupanija/pretraga", "Region": "Kvarner", "Typ": "Wohnung"},
+    {"url": "https://www.index.hr/oglasi/nekretnine/prodaja-kuca/primorsko-goranska-zupanija/pretraga", "Region": "Kvarner", "Typ": "Haus"},
+    {"url": "https://www.index.hr/oglasi/nekretnine/prodaja-stanova/zadarska-zupanija/pretraga", "Region": "Zadar", "Typ": "Wohnung"},
+    {"url": "https://www.index.hr/oglasi/nekretnine/prodaja-kuca/zadarska-zupanija/pretraga", "Region": "Zadar", "Typ": "Haus"},
+    {"url": "https://www.index.hr/oglasi/nekretnine/prodaja-stanova/splitsko-dalmatinska-zupanija/pretraga", "Region": "Split-Dalmatien", "Typ": "Wohnung"},
+    {"url": "https://www.index.hr/oglasi/nekretnine/prodaja-kuca/splitsko-dalmatinska-zupanija/pretraga", "Region": "Split-Dalmatien", "Typ": "Haus"}
 ]
 
-CSV_FILE = "njuskalo_kueste_daten.csv"
+CSV_FILE = "index_kueste_daten.csv"
 
 def run():
     heute = datetime.now().strftime("%Y-%m-%d")
-    neue_daten = []
+    neue_daten_dict = {} # Verhindert doppelte Einträge
 
     with sync_playwright() as p:
-        # 1. Tarnung für den Bot aktivieren (User-Agent + Flags)
         browser = p.chromium.launch(headless=True, args=['--disable-blink-features=AutomationControlled'])
         context = browser.new_context(
             user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -32,34 +31,39 @@ def run():
         )
         page = context.new_page()
 
-        # Schleife: Jede URL nacheinander abrufen
         for ziel in URLS:
             try:
-                print(f"Scrape {ziel['Typ']} in {ziel['Region']}...")
+                print(f"Scrape {ziel['Typ']} in {ziel['Region']} auf Index.hr...")
                 
-                # 2. Timeout erhöhen und 'domcontentloaded' statt 'networkidle' nutzen
                 page.goto(ziel['url'], wait_until="domcontentloaded", timeout=60000)
-                
-                # 3. Explizit warten, bis die Inserate im HTML auftauchen (max 15 Sek)
-                page.wait_for_selector("li.EntityList-item", timeout=15000)
+                # Wir warten, bis mindestens ein Link zu einem Oglas (Inserat) geladen ist
+                page.wait_for_selector("a[href*='/oglas/']", timeout=15000)
                 
                 html = page.content()
                 soup = BeautifulSoup(html, "html.parser")
-                inserate = soup.find_all("li", class_="EntityList-item")
+                
+                # Alle Links finden, die auf ein Inserat deuten
+                inserate_links = soup.find_all("a", href=True)
 
-                for item in inserate:
-                    article = item.find("article")
-                    if not article: continue
+                for link in inserate_links:
+                    href = link['href']
+                    if "/oglas/" not in href:
+                        continue
                     
-                    oglas_id = article.get("data-ad-id", "N/A")
-                    title_tag = article.find("h3", class_="entity-title")
-                    title = title_tag.text.strip() if title_tag else ""
+                    # ID aus der URL extrahieren (die Nummer am Ende des Links)
+                    oglas_id = href.split("/")[-1].split("?")[0]
                     
-                    price_tag = article.find("strong", class_="price")
-                    price = price_tag.text.strip() if price_tag else ""
-                    
-                    if oglas_id != "N/A" and title:
-                        neue_daten.append({
+                    # Manchmal gibt es mehrere Links zum selben Inserat (Bild, Titel). Wir nehmen jeden nur einmal.
+                    if oglas_id not in neue_daten_dict and oglas_id.isdigit():
+                        # Versuche den Preis zu finden (im Text des Links)
+                        price_tag = link.find(string=lambda t: t and "€" in t)
+                        price = price_tag.strip() if price_tag else "Auf Anfrage"
+                        
+                        # Versuche den Titel zu finden (meist als h3 formatiert)
+                        title_tag = link.find("h3") or link.find(class_=lambda c: c and "title" in c.lower())
+                        title = title_tag.text.strip() if title_tag else f"Inserat {oglas_id}"
+                        
+                        neue_daten_dict[oglas_id] = {
                             "ID": oglas_id,
                             "Titel": title,
                             "Preis": price,
@@ -67,9 +71,8 @@ def run():
                             "Typ": ziel['Typ'],
                             "Datum_entdeckt": heute,
                             "Status": "Aktiv"
-                        })
+                        }
                 
-                # Kurze Pause, um den Njuškalo-Server nicht zu überlasten
                 time.sleep(3) 
             except Exception as e:
                 print(f"Fehler bei {ziel['url']}: {e}")
@@ -77,30 +80,32 @@ def run():
 
         browser.close()
 
+    neue_daten = list(neue_daten_dict.values())
     df_neu = pd.DataFrame(neue_daten)
+    
     if df_neu.empty:
         print("Keine Inserate gefunden.")
         return
 
-    # Historie abgleichen (Neu vs. Entfernt)
+    # Historie abgleichen
     if os.path.exists(CSV_FILE):
         df_alt = pd.read_csv(CSV_FILE)
         
         aktuelle_ids = df_neu["ID"].tolist()
-        df_alt.loc[~df_alt["ID"].isin(aktuelle_ids), "Status"] = "Entfernt/Verkauft"
+        df_alt.loc[~df_alt["ID"].astype(str).isin(aktuelle_ids), "Status"] = "Entfernt/Verkauft"
         
-        alte_ids = df_alt["ID"].tolist()
-        df_wirklich_neu = df_neu[~df_neu["ID"].isin(alte_ids)]
+        alte_ids = df_alt["ID"].astype(str).tolist()
+        df_wirklich_neu = df_neu[~df_neu["ID"].astype(str).isin(alte_ids)]
         df_final = pd.concat([df_alt, df_wirklich_neu], ignore_index=True)
     else:
         df_final = df_neu
 
-    # Automatische A-Z Sortierung (erst nach Region, dann Typ, dann Titel)
+    # Automatische A-Z Sortierung, wie wir es für CSV-Exporte vereinbart haben
     df_final = df_final.sort_values(by=["Region", "Typ", "Titel"])
 
     # Speichern
     df_final.to_csv(CSV_FILE, index=False, encoding="utf-8")
-    print(f"Erfolgreich gespeichert. {len(df_neu)} aktive Inserate insgesamt verarbeitet.")
+    print(f"Erfolgreich gespeichert. {len(df_neu)} aktive Inserate auf Index Oglasi verarbeitet.")
 
 if __name__ == "__main__":
     run()
