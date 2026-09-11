@@ -7,14 +7,25 @@ import time
 
 # Die Liste für Index Oglasi (Alle vier Küstenregionen)
 URLS = [
+    # --- ISTRIEN ---
     {"url": "https://www.index.hr/oglasi/nekretnine/prodaja-stanova/istarska-zupanija/pretraga", "Region": "Istrien", "Typ": "Wohnung"},
     {"url": "https://www.index.hr/oglasi/nekretnine/prodaja-kuca/istarska-zupanija/pretraga", "Region": "Istrien", "Typ": "Haus"},
+    {"url": "https://www.index.hr/oglasi/nekretnine/prodaja-zemljista/istarska-zupanija/pretraga", "Region": "Istrien", "Typ": "Grundstück"},
+    
+    # --- KVARNER BUCHT ---
     {"url": "https://www.index.hr/oglasi/nekretnine/prodaja-stanova/primorsko-goranska-zupanija/pretraga", "Region": "Kvarner", "Typ": "Wohnung"},
     {"url": "https://www.index.hr/oglasi/nekretnine/prodaja-kuca/primorsko-goranska-zupanija/pretraga", "Region": "Kvarner", "Typ": "Haus"},
+    {"url": "https://www.index.hr/oglasi/nekretnine/prodaja-zemljista/primorsko-goranska-zupanija/pretraga", "Region": "Kvarner", "Typ": "Grundstück"},
+    
+    # --- ZADAR (Norddalmatien) ---
     {"url": "https://www.index.hr/oglasi/nekretnine/prodaja-stanova/zadarska-zupanija/pretraga", "Region": "Zadar", "Typ": "Wohnung"},
     {"url": "https://www.index.hr/oglasi/nekretnine/prodaja-kuca/zadarska-zupanija/pretraga", "Region": "Zadar", "Typ": "Haus"},
+    {"url": "https://www.index.hr/oglasi/nekretnine/prodaja-zemljista/zadarska-zupanija/pretraga", "Region": "Zadar", "Typ": "Grundstück"},
+    
+    # --- SPLIT-DALMATIEN ---
     {"url": "https://www.index.hr/oglasi/nekretnine/prodaja-stanova/splitsko-dalmatinska-zupanija/pretraga", "Region": "Split-Dalmatien", "Typ": "Wohnung"},
-    {"url": "https://www.index.hr/oglasi/nekretnine/prodaja-kuca/splitsko-dalmatinska-zupanija/pretraga", "Region": "Split-Dalmatien", "Typ": "Haus"}
+    {"url": "https://www.index.hr/oglasi/nekretnine/prodaja-kuca/splitsko-dalmatinska-zupanija/pretraga", "Region": "Split-Dalmatien", "Typ": "Haus"},
+    {"url": "https://www.index.hr/oglasi/nekretnine/prodaja-zemljista/splitsko-dalmatinska-zupanija/pretraga", "Region": "Split-Dalmatien", "Typ": "Grundstück"}
 ]
 
 CSV_FILE = "index_kueste_daten.csv"
