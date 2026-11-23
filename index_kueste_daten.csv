@@ -56,7 +56,7 @@ ID,Titel,Preis,Region,Typ,Datum_entdeckt,Status
 7662627,"CENTAR/Gundulićeva, Prekrasan 2-sobni stan 48m2 potpuno adaptiran i novonamješten..250.000 €5.208 €/m2",250.000 €,Istrien,Wohnung,2026-11-03,Entfernt/Verkauft
 7608432,"Centar - najam, 3-sobni kompletno namješten stan - bez provizije za najmoprimca1.300 €/mjesec",1.300 €/mjesec,Istrien,Wohnung,2026-10-20,Entfernt/Verkauft
 7449736,"Centar, stan DB+4S+Po+Pk, u kratkoročnom najmu, investicija370.000 €3.700 €/m2",370.000 €,Istrien,Wohnung,2026-09-26,Entfernt/Verkauft
-7681606,Cetverosoban stan Dubrovacka279.000 €2.797 €/m2,279.000 €,Istrien,Wohnung,2026-11-22,Aktiv
+7681606,Cetverosoban stan Dubrovacka279.000 €2.797 €/m2,279.000 €,Istrien,Wohnung,2026-11-22,Entfernt/Verkauft
 7539446,Cijela dvojna kuća blizu Topuskog39.900 €164 €/m2,39.900 €,Istrien,Wohnung,2026-10-01,Entfernt/Verkauft
 7188971,Cijelogodišnji Najam stana Makarska450 €/mjesec,450 €/mjesec,Istrien,Wohnung,2026-11-10,Entfernt/Verkauft
 7654049,Cjelogodisnji najam stana600 €/mjesec,600 €/mjesec,Istrien,Wohnung,2026-10-26,Entfernt/Verkauft
@@ -111,7 +111,7 @@ ID,Titel,Preis,Region,Typ,Datum_entdeckt,Status
 7658026,"Dvosoban stan u Donjem gradu, Zagreb centar650 €/mjesec",650 €/mjesec,Istrien,Wohnung,2026-11-10,Entfernt/Verkauft
 7632303,Dvosoban stan u centru Velike Gorice550 €/mjesec,550 €/mjesec,Istrien,Wohnung,2026-11-09,Entfernt/Verkauft
 7536786,"Dvosoban stan, površine 51 m2, u blizini Autobusnog kolodvora800 €/mjesec",800 €/mjesec,Istrien,Wohnung,2026-09-13,Entfernt/Verkauft
-7692780,"Dvosobni stan Biševska ulica 20, Buzin, Zagreb170.000 €2.833 €/m2",170.000 €,Istrien,Wohnung,2026-11-22,Aktiv
+7692780,"Dvosobni stan Biševska ulica 20, Buzin, Zagreb170.000 €2.833 €/m2",170.000 €,Istrien,Wohnung,2026-11-22,Entfernt/Verkauft
 7175558,Dvosobni stan na prodaju Valbandon Fažana197.500 €3.148 €/m2,197.500 €,Istrien,Wohnung,2026-10-19,Entfernt/Verkauft
 7688908,"Dvosobni stan u najam- Zagreb, Trešnjevka sjever660 €/mjesec",660 €/mjesec,Istrien,Wohnung,2026-11-18,Entfernt/Verkauft
 7539995,"Dvosobni stan za najam s panoramskim pogledom – 117 m², Kaštel Lukšić850 €/mjesec",850 €/mjesec,Istrien,Wohnung,2026-09-16,Entfernt/Verkauft
@@ -169,7 +169,7 @@ ID,Titel,Preis,Region,Typ,Datum_entdeckt,Status
 7675374,Građevinsko zemljište sa kućama / Zagorje Kraljevec na Sutli48.500 €105 €/m2,48.500 €,Istrien,Wohnung,2026-11-09,Entfernt/Verkauft
 7501365,"Građevinsko zemljište sa panoramskim pogledom na more, Supetar (Škrip), 892m2102.350 €115 €/m2",102.350 €,Istrien,Wohnung,2026-10-19,Entfernt/Verkauft
 7656346,"Građevinsko zemljište sa projektom, Zadar, 751 m2154.000 €205 €/m2",154.000 €,Istrien,Wohnung,2026-11-13,Entfernt/Verkauft
-7689105,Građevinsko zemljište sa projektom49.900 €30 €/m2,49.900 €,Istrien,Wohnung,2026-11-22,Aktiv
+7689105,Građevinsko zemljište sa projektom49.900 €30 €/m2,49.900 €,Istrien,Wohnung,2026-11-22,Entfernt/Verkauft
 7668081,Građevinsko zemljište sa važećom građevinskom dozvolom-Gornja Dubrava(Zagreb)-prodajem125.000 €207 €/m2,125.000 €,Istrien,Wohnung,2026-11-03,Entfernt/Verkauft
 7648843,Građevinsko zemljište sa započetom gradnjom115.000 €139 €/m2,115.000 €,Istrien,Wohnung,2026-10-24,Entfernt/Verkauft
 7019740,"Građevinsko zemljište u Bilju površine 1070 m2, fronta 16 m.30.000 €23.900 €22 €/m2",30.000 €,Istrien,Wohnung,2026-10-23,Entfernt/Verkauft
@@ -356,11 +356,12 @@ ID,Titel,Preis,Region,Typ,Datum_entdeckt,Status
 7500990,Kuća sa velikom okućnicom u srcu Istre90.000 €1.286 €/m2,90.000 €,Istrien,Wohnung,2026-10-06,Entfernt/Verkauft
 6472191,Kuća samostojeća250.000 €1.250 €/m2,250.000 €,Istrien,Wohnung,2026-09-24,Entfernt/Verkauft
 7535712,"Kuća u inozemstvu,Bosna i Hercegovina,Travnik97.000 €1.212 €/m2",97.000 €,Istrien,Wohnung,2026-09-14,Entfernt/Verkauft
+7693715,"Kuća za 8-9 radnika, Pula, 900m od Arene, 5 soba2.000 €",2.000 €,Istrien,Wohnung,2026-11-23,Aktiv
 7569213,Kuća za adaptaciju Vrapče165.000 €1.988 €/m2,165.000 €,Istrien,Wohnung,2026-09-28,Entfernt/Verkauft
 2604610,Kuća za odmor Kupres najam i prodaja190.000 €145.000 €806 €/m2,190.000 €,Istrien,Wohnung,2026-09-13,Entfernt/Verkauft
 7276807,"Kuća za odmor,petrinja,3,5 km od centra52.000 €34.550 €1.152 €/m2",52.000 €,Istrien,Wohnung,2026-10-22,Entfernt/Verkauft
 7607783,Kuća za uređenje u uvali Poplat – otok Korčula150.000 €2.055 €/m2,150.000 €,Istrien,Wohnung,2026-10-10,Entfernt/Verkauft
-7298485,Kuća Črešnjevo15 €,15 €,Istrien,Wohnung,2026-11-22,Aktiv
+7298485,Kuća Črešnjevo15 €,15 €,Istrien,Wohnung,2026-11-22,Entfernt/Verkauft
 6868411,"Kuća Žakanje (Brihovo), 300m2, 8-sobna180.000 €600 €/m2",180.000 €,Istrien,Wohnung,2026-11-02,Entfernt/Verkauft
 7461230,"Kuća, Kaštel Lukšić, Imanje u zelenilu s maslinikom, pogledom na more (prodaja)420.000 €1.918 €/m2",420.000 €,Istrien,Wohnung,2026-09-17,Entfernt/Verkauft
 7401457,"Kuća, dvojni objekt na top lokaciji435.000 €3.246 €/m2",435.000 €,Istrien,Wohnung,2026-10-12,Entfernt/Verkauft
@@ -400,7 +401,7 @@ ID,Titel,Preis,Region,Typ,Datum_entdeckt,Status
 7607624,"Markuševečki Popovec, kuća na parceli 422 m2, za uređenje166.000 €1.038 €/m2",166.000 €,Istrien,Wohnung,2026-10-12,Entfernt/Verkauft
 7423345,"Mediteranski dragulj uz more – autentična kamena kuća s pogledom koji oduzima dah,Lumbarda490.000 €6.712 €/m2",490.000 €,Istrien,Wohnung,2026-10-03,Entfernt/Verkauft
 7674955,"Metalčeva ulica, Dom Sportova, top lokacija, 3-sobni800 €/mjesec",800 €/mjesec,Istrien,Wohnung,2026-11-18,Entfernt/Verkauft
-7691490,Mikulići- Renoviran stan s velikom terasom i pogledom na prirodu750 €/mjesec,750 €/mjesec,Istrien,Wohnung,2026-11-21,Aktiv
+7691490,Mikulići- Renoviran stan s velikom terasom i pogledom na prirodu750 €/mjesec,750 €/mjesec,Istrien,Wohnung,2026-11-21,Entfernt/Verkauft
 7654059,Miramarska (Hugo zgrada): 2-soban stan 60m2 s pogledom - bez provizije (iznajmljivanje)1.200 €/mjesec,1.200 €/mjesec,Istrien,Wohnung,2026-10-26,Entfernt/Verkauft
 7331857,Moderan 3 soban stan - dugoročni najam bez agencije1.100 €/mjesec,1.100 €/mjesec,Istrien,Wohnung,2026-11-12,Entfernt/Verkauft
 7545246,"Moderan dvosoban stan s garažom i lođom, Malešnica(55m2)700 €/mjesec",700 €/mjesec,Istrien,Wohnung,2026-09-20,Entfernt/Verkauft
@@ -444,7 +445,7 @@ ID,Titel,Preis,Region,Typ,Datum_entdeckt,Status
 7533270,Najam novouređene garsonjere Voltino400 €/mjesec,400 €/mjesec,Istrien,Wohnung,2026-09-11,Entfernt/Verkauft
 7643432,Najam poslovnog prostora300 €,300 €,Istrien,Wohnung,2026-10-23,Entfernt/Verkauft
 7536747,Najam soba za studente/radnike500 €,500 €,Istrien,Wohnung,2026-09-13,Entfernt/Verkauft
-7601150,Najam sobe za studente270 €,270 €,Istrien,Wohnung,2026-11-21,Aktiv
+7601150,Najam sobe za studente270 €,270 €,Istrien,Wohnung,2026-11-21,Entfernt/Verkauft
 7592414,"Najam stan Rijeka 64m2, 2S+DB, Kozala600 €/mjesec",600 €/mjesec,Istrien,Wohnung,2026-10-06,Entfernt/Verkauft
 7683639,"Najam stana (Gospodska ulica), 65m2650 €/mjesec",650 €/mjesec,Istrien,Wohnung,2026-11-16,Entfernt/Verkauft
 7536989,Najam stana (Kvatrić) dvosoban stan900 €/mjesec,900 €/mjesec,Istrien,Wohnung,2026-09-16,Entfernt/Verkauft
@@ -471,7 +472,7 @@ ID,Titel,Preis,Region,Typ,Datum_entdeckt,Status
 7486356,Namješten 3-sobni stan u gradu Karlovcu- PRODAJA bez agencijske provizije330.000.000 €3.697.479 €/m2,330.000.000 €,Istrien,Wohnung,2026-09-25,Entfernt/Verkauft
 7656167,Namješten stan u blizni Trga F. Tuđmana - Ilica - 2s - 58m2 (prodaja)298.000 €5.138 €/m2,298.000 €,Istrien,Wohnung,2026-10-27,Entfernt/Verkauft
 7588754,"Namješten studio apartman 10 minuta pješke od centra Zadra (Voštarnica), 30m2500 €/mjesec",500 €/mjesec,Istrien,Wohnung,2026-10-03,Entfernt/Verkauft
-7692798,"Namještena kuća s bazenom i uređenim dvorištem, okolica Velike Gorice340.000 €1.789 €/m2",340.000 €,Istrien,Wohnung,2026-11-22,Aktiv
+7692798,"Namještena kuća s bazenom i uređenim dvorištem, okolica Velike Gorice340.000 €1.789 €/m2",340.000 €,Istrien,Wohnung,2026-11-22,Entfernt/Verkauft
 7648363,Natkriveno parkirno mjesto - TRNAVA80 €,80 €,Istrien,Wohnung,2026-10-23,Entfernt/Verkauft
 7539663,Nova Mokošica stan s dvije spavaće sobe - dugoročni najam900 €/mjesec,900 €/mjesec,Istrien,Wohnung,2026-09-16,Entfernt/Verkauft
 7648356,"Nova, 77 m2 odmah useljiva kuća, 20 min od Zagreba, 10 kW solarna elektrana210.000 €358 €/m2",210.000 €,Istrien,Wohnung,2026-10-27,Entfernt/Verkauft
@@ -512,7 +513,7 @@ ID,Titel,Preis,Region,Typ,Datum_entdeckt,Status
 7555364,POSLOVNI PROSTOR NA PRODAJU – ZABOK – 150 m²506.250 €3.375 €/m2,506.250 €,Istrien,Wohnung,2026-10-07,Entfernt/Verkauft
 7555346,POSLOVNI PROSTOR NA PRODAJU – ZABOK – 70 m²236.250 €3.375 €/m2,236.250 €,Istrien,Wohnung,2026-10-07,Entfernt/Verkauft
 7417806,"POSLOVNI PROSTOR ZA NAJAM – CENTAR SPLITA, 21 m²400 €",400 €,Istrien,Wohnung,2026-09-17,Entfernt/Verkauft
-7691422,"POVIJESNA POSLOVNA ZGRADA, 718m² - SIKLÓS, MAĐARSKA907.000 €1.263 €/m2",907.000 €,Istrien,Wohnung,2026-11-21,Aktiv
+7691422,"POVIJESNA POSLOVNA ZGRADA, 718m² - SIKLÓS, MAĐARSKA907.000 €1.263 €/m2",907.000 €,Istrien,Wohnung,2026-11-21,Entfernt/Verkauft
 7553131,POVOLJNO !! TEREN MALI IŽ95.000 €109 €/m2,95.000 €,Istrien,Wohnung,2026-09-22,Entfernt/Verkauft
 7322360,POVOLJNO PRODAJEMO PROIZVODNI KOMPLEKS820.000 €82 €/m2,820.000 €,Istrien,Wohnung,2026-09-15,Entfernt/Verkauft
 7636930,POVOLJNO! VRBOVSKO-USELJIVA KUĆA S OKUĆNICOM I DODATNIM ZEMLJIŠTEM65.000 €812 €/m2,65.000 €,Istrien,Wohnung,2026-11-04,Entfernt/Verkauft
@@ -520,6 +521,7 @@ ID,Titel,Preis,Region,Typ,Datum_entdeckt,Status
 7339838,"PREČKO, POLJOPRIVREDNO ZEMLJIŠTE, 5835m2 (sportski tereni)550.000 €94 €/m2",550.000 €,Istrien,Wohnung,2026-10-13,Entfernt/Verkauft
 7536761,"PRILIKA !!! Novalja - Gaj ,dva apartmana uk.100m2, dvorište 115m2 s bazenom, 100m od mora,2 parkinga340.000 €3.400 €/m2",340.000 €,Istrien,Wohnung,2026-09-13,Entfernt/Verkauft
 7452443,"PRILIKA! Građevinsko zemljište-Bedekovčina, 2.550m255.900 €52.900 €21 €/m2",55.900 €,Istrien,Wohnung,2026-09-13,Entfernt/Verkauft
+7693750,"PRILIKA! Osijek, Retfala najam kuće za 10 radnika2.000 €",2.000 €,Istrien,Wohnung,2026-11-23,Aktiv
 7583063,PRILIKA! RIJEKA CENTAR-TROSOBAN STAN SA POGLEDOM NA MORE160.000 €2.963 €/m2,160.000 €,Istrien,Wohnung,2026-10-01,Entfernt/Verkauft
 7657512,"PRIVLAKA-KUĆA S DVA APARTMANA, 3 PROSTRANE TERASE I POGLEDOM NA MORE!275.000 €3.274 €/m2",275.000 €,Istrien,Wohnung,2026-11-03,Entfernt/Verkauft
 7588791,PRIZNA KUĆA 10 €,10 €,Istrien,Wohnung,2026-10-03,Entfernt/Verkauft
@@ -598,6 +600,7 @@ ID,Titel,Preis,Region,Typ,Datum_entdeckt,Status
 7629636,Prodaja - Kuća 200m2 s bazenom- Svetvinčenat790.000 €3.950 €/m2,790.000 €,Istrien,Wohnung,2026-10-15,Entfernt/Verkauft
 7338055,"Prodaja - sunčani peterosobni klasični stan 159,12 m2 na III katu 285.000 €1.791 €/m2",285.000 €,Istrien,Wohnung,2026-09-17,Entfernt/Verkauft
 7478050,Prodaja - vikendica uz rijeku Kupu -  2.433 m2 okućnice – rijetka prilika!127.000 €,127.000 €,Istrien,Wohnung,2026-09-15,Entfernt/Verkauft
+7383631,Prodaja -3s Stan 72m2- Pantovčak450.000 €6.229 €/m2,450.000 €,Istrien,Wohnung,2026-11-23,Aktiv
 7440910,"Prodaja 3S stana, Trnje - adaptiran i namješten, 72m2300.000 €4.167 €/m2",300.000 €,Istrien,Wohnung,2026-09-26,Entfernt/Verkauft
 7357884,Prodaja Stan Odra -Novi Zagreb/ dvoetažni s privatnim vrtom i 2VPM . 117.48 m2  -2638e/m2 ! 330.000 €310.000 €2.639 €/m2,330.000 €,Istrien,Wohnung,2026-09-11,Entfernt/Verkauft
 7508671,"Prodaja drvene kuće.10335m2 zemljište,od toga 4200 građevinsko!Slunj ! Struja,asfalt,internet.Bunar.45.000 €300 €/m2",45.000 €,Istrien,Wohnung,2026-09-16,Entfernt/Verkauft
@@ -614,7 +617,11 @@ ID,Titel,Preis,Region,Typ,Datum_entdeckt,Status
 7607693,Prodaja tvrtke u Splitu - Igraonica - Selfie muzej1 €,1 €,Istrien,Wohnung,2026-10-06,Entfernt/Verkauft
 7642235,Prodaja zemljišta134.000 €242 €/m2,134.000 €,Istrien,Wohnung,2026-10-20,Entfernt/Verkauft
 6712039,"Prodaja, građevinsko zemljište 1920 m² – Ugljan, Gornje Selo, Muline289.000 €151 €/m2",289.000 €,Istrien,Wohnung,2026-09-28,Entfernt/Verkauft
+7642522,Prodaja-3s Novoadaptirani Stan 60m2-Donji grad- Širolina ulica380.000 €6.333 €/m2,380.000 €,Istrien,Wohnung,2026-11-23,Aktiv
 7542982,Prodaja-3s Stan 49m2-Črnomerec-Prilaz baruna Filipovića250.000 €5.102 €/m2,250.000 €,Istrien,Wohnung,2026-10-15,Entfernt/Verkauft
+7680410,"Prodaja-Novoadaptirani 2s stan 43,50m2- Trnje- Martinovka260.000 €5.977 €/m2",260.000 €,Istrien,Wohnung,2026-11-23,Aktiv
+7684589,Prodaja-Stan 101m2- Samobor-Ulica Vlahe Bukovca370.000 €3.654 €/m2,370.000 €,Istrien,Wohnung,2026-11-23,Aktiv
+7350637,Prodaja-Stan 105m2-Centar-(Dežmanov prolaz)- Streljacka ulica619.000 €5.883 €/m2,619.000 €,Istrien,Wohnung,2026-11-23,Aktiv
 7446986,Prodaja-Stan 98m2- Donji grad- Kačićeva ulica390.000 €350.000 €3.563 €/m2,390.000 €,Istrien,Wohnung,2026-10-15,Entfernt/Verkauft
 7673984,Prodaja: Botinec - namješten dvosoban stan230.000 €4.632 €/m2,230.000 €,Istrien,Wohnung,2026-11-08,Entfernt/Verkauft
 7669367,"Prodaje se dvosoban, namješten stan, spreman za useljenje, 125 000 eura125.000 €2.083 €/m2",125.000 €,Istrien,Wohnung,2026-11-05,Entfernt/Verkauft
@@ -730,6 +737,7 @@ ID,Titel,Preis,Region,Typ,Datum_entdeckt,Status
 7552004,"Stan 41 m2 u centru Trešnjevke, iznajmljujem550 €/mjesec",550 €/mjesec,Istrien,Wohnung,2026-10-14,Entfernt/Verkauft
 7551576,"Stan 41.25 m2, Vijenac Gorana Zobundžije150.000 €3.636 €/m2",150.000 €,Istrien,Wohnung,2026-09-20,Entfernt/Verkauft
 7066967,Stan 45m2 s terasom za najam590 €550 €/mjesec,590 €,Istrien,Wohnung,2026-10-18,Entfernt/Verkauft
+7675309,"Stan 46m2, 2-sobni800 €/mjesec",800 €/mjesec,Istrien,Wohnung,2026-11-23,Aktiv
 7643548,Stan 47 kvadrata u centru Botinca ( trenutno bez agencija)165.000 €3.511 €/m2,165.000 €,Istrien,Wohnung,2026-10-21,Entfernt/Verkauft
 7407106,"Stan 50 m2 Lučko Novi Zagreb - Zapad (Lučko), 50m2, 1-sobni175.000 €4.070 €/m2",175.000 €,Istrien,Wohnung,2026-10-17,Entfernt/Verkauft
 7382434,"Stan 52 m2 PRODAJA Sveti Ilija, 2s, 1. kat, adaptiran133.900 €2.600 €/m2",133.900 €,Istrien,Wohnung,2026-10-11,Entfernt/Verkauft
@@ -762,6 +770,7 @@ ID,Titel,Preis,Region,Typ,Datum_entdeckt,Status
 7016716,"Stan Makarska (Makarska), 110m2, 3-sobni1.100 €/mjesec",1.100 €/mjesec,Istrien,Wohnung,2026-10-21,Entfernt/Verkauft
 7575317,"Stan Maksimir (Bukovac), 35m2, 2-sobni500 €/mjesec",500 €/mjesec,Istrien,Wohnung,2026-09-28,Entfernt/Verkauft
 7574407,"Stan Maksimir (Laščina), 42m2, 2-sobni800 €/mjesec",800 €/mjesec,Istrien,Wohnung,2026-09-28,Entfernt/Verkauft
+7693912,"Stan Maksimir (Maksimir), 56m2, 2-sobni660 €/mjesec",660 €/mjesec,Istrien,Wohnung,2026-11-23,Aktiv
 7555326,"Stan Maksimir (Maksimir), 70m2, 3-sobni1.300 €/mjesec",1.300 €/mjesec,Istrien,Wohnung,2026-09-23,Entfernt/Verkauft
 7555690,"Stan Maksimir (Ravnice), 35m2, 1-sobni600 €/mjesec",600 €/mjesec,Istrien,Wohnung,2026-09-23,Entfernt/Verkauft
 7552354,"Stan Maksimir (Remete), 103.84m2, 4-sobni540.000 €5.200 €/m2",540.000 €,Istrien,Wohnung,2026-10-19,Entfernt/Verkauft
@@ -871,6 +880,7 @@ PRODAJE VLASNIK145.000 €3.905 €/m2",145.000 €,Istrien,Wohnung,2026-09-14,E
 7632366,"Stan Trnje (Trnjanska), 90m2, 3-sobni1.000 €/mjesec",1.000 €/mjesec,Istrien,Wohnung,2026-10-20,Entfernt/Verkauft
 7581559,"Stan Trnje (Vrbik), 59m2, 2-sobni220.000 €3.729 €/m2",220.000 €,Istrien,Wohnung,2026-10-01,Entfernt/Verkauft
 7542936,"Stan Varaždin (Banfica), 60m2, 2-sobni600 €/mjesec",600 €/mjesec,Istrien,Wohnung,2026-09-18,Entfernt/Verkauft
+7693790,"Stan Varaždin, 45m2, 1-sobni, novo renoviran550 €/mjesec",550 €/mjesec,Istrien,Wohnung,2026-11-23,Aktiv
 7671138,"Stan Varaždin, POS naselje, 3-soban dvoetažni, 80.29m2 (prodaja) 256.000 €3.188 €/m2",256.000 €,Istrien,Wohnung,2026-11-05,Entfernt/Verkauft
 7653244,"Stan Velika Gorica (Naselje Slavka Kolara), 47m2, 1-sobni700 €/mjesec",700 €/mjesec,Istrien,Wohnung,2026-10-27,Entfernt/Verkauft
 7640278,"Stan Vinodolska Općina (Grižane-Belgrad), 150m2, 5+ sobni500 €/mjesec",500 €/mjesec,Istrien,Wohnung,2026-10-18,Entfernt/Verkauft
@@ -910,7 +920,7 @@ PRODAJE VLASNIK145.000 €3.905 €/m2",145.000 €,Istrien,Wohnung,2026-09-14,E
 7617467,"Stan u Zagrebu - Vlaška ulica, 28 m2126.000 €4.500 €/m2",126.000 €,Istrien,Wohnung,2026-10-15,Entfernt/Verkauft
 7551189,Stan u blizini plaže Valkane i šetnice Lungomare 135.000 €4.219 €/m2,135.000 €,Istrien,Wohnung,2026-09-20,Entfernt/Verkauft
 7339182,Stan u centru Zagreba – kompletno renoviran i moderno uređen350.000 €309.000 €4.535 €/m2,350.000 €,Istrien,Wohnung,2026-10-02,Entfernt/Verkauft
-7455595,Stan u izgradnji 113 m2 Osijek Donji grad350.000 €3.097 €/m2,350.000 €,Istrien,Wohnung,2026-11-21,Aktiv
+7455595,Stan u izgradnji 113 m2 Osijek Donji grad350.000 €3.097 €/m2,350.000 €,Istrien,Wohnung,2026-11-21,Entfernt/Verkauft
 7533766,Stan u kući - Trešnjevka530.000 €2.804 €/m2,530.000 €,Istrien,Wohnung,2026-09-29,Entfernt/Verkauft
 7351921,Stan u novogradnji- Privlaka- nadomak mora325.000 €4.025 €/m2,325.000 €,Istrien,Wohnung,2026-11-20,Entfernt/Verkauft
 7551396,"Stan u prizemlju 132.00 m2, s dvorištem 92m2 i garažom, Retfala (prodaja)375.000 €2.841 €/m2",375.000 €,Istrien,Wohnung,2026-10-29,Entfernt/Verkauft
@@ -927,7 +937,7 @@ PRODAJE VLASNIK145.000 €3.905 €/m2",145.000 €,Istrien,Wohnung,2026-09-14,E
 7633177,"Stan Đakovo (Đakovo), 40m2, 1-sobni400 €/mjesec",400 €/mjesec,Istrien,Wohnung,2026-10-13,Entfernt/Verkauft
 7607299,"Stan Šibenik (Crnica), 42m2, 1-sobni163.000 €3.881 €/m2",163.000 €,Istrien,Wohnung,2026-11-02,Entfernt/Verkauft
 7664349,Stan Žnjan dvije etaže 35 m2 700 € (režije uključene) cjelogodišnji najam700 €/mjesec,Stan Žnjan dvije etaže 35 m2 700 € (režije uključene) cjelogodišnji najam,Istrien,Wohnung,2026-10-31,Entfernt/Verkauft
-7692831,"Stan, 62 m2, prodaja, Zeleni neboder190.000 €3.065 €/m2",190.000 €,Istrien,Wohnung,2026-11-22,Aktiv
+7692831,"Stan, 62 m2, prodaja, Zeleni neboder190.000 €3.065 €/m2",190.000 €,Istrien,Wohnung,2026-11-22,Entfernt/Verkauft
 7489491,"Stan, 80m2, 3-sobni, parking - Črnomerec (Ilica, blizina okretišta ZET-a)1.100 €900 €/mjesec",1.100 €,Istrien,Wohnung,2026-09-19,Entfernt/Verkauft
 7674070,"Stan, Barban500 €/mjesec",500 €/mjesec,Istrien,Wohnung,2026-11-14,Entfernt/Verkauft
 7540063,"Stan, Velika Gorica, Centar, 39.00 m2, Najam500 €/mjesec",500 €/mjesec,Istrien,Wohnung,2026-09-16,Entfernt/Verkauft
@@ -940,7 +950,7 @@ PRODAJE VLASNIK145.000 €3.905 €/m2",145.000 €,Istrien,Wohnung,2026-09-14,E
 7488083,"Stan: Rijeka, Brajšina ulica Kozala, 55.00 m2175.000 €3.182 €/m2",175.000 €,Istrien,Wohnung,2026-09-25,Entfernt/Verkauft
 7627665,"Stan: Varaždin (Trakošćanska ulica), 54 m2 - ""ključ u ruke"" (prodaja)170.000 €3.148 €/m2",170.000 €,Istrien,Wohnung,2026-10-10,Entfernt/Verkauft
 7654506,"Stan: Zagreb (Bidrovec), 70.00 m2 (iznajmljivanje)600 €/mjesec",600 €/mjesec,Istrien,Wohnung,2026-10-26,Entfernt/Verkauft
-7685601,"Stan: Zagreb (Jankomir), 47.00 m2, novogradnja - BEZ AGENCIJA!!!850 €/mjesec",850 €/mjesec,Istrien,Wohnung,2026-11-21,Aktiv
+7685601,"Stan: Zagreb (Jankomir), 47.00 m2, novogradnja - BEZ AGENCIJA!!!850 €/mjesec",850 €/mjesec,Istrien,Wohnung,2026-11-21,Entfernt/Verkauft
 7643806,"Stan: Zagreb (Rudeš), 56.00 m2 (iznajmljivanje)900 €/mjesec",900 €/mjesec,Istrien,Wohnung,2026-10-21,Entfernt/Verkauft
 7600983,"Stan: Zagreb (Sloboština - Otok), 64.00 m2 (iznajmljivanje)850 €/mjesec",850 €/mjesec,Istrien,Wohnung,2026-10-05,Entfernt/Verkauft
 7653702,"Stan: Zagreb (Studentski grad), 54.00 m2 (iznajmljivanje)650 €/mjesec",650 €/mjesec,Istrien,Wohnung,2026-10-26,Entfernt/Verkauft
@@ -950,7 +960,7 @@ PRODAJE VLASNIK145.000 €3.905 €/m2",145.000 €,Istrien,Wohnung,2026-09-14,E
 7633014,"Stan: Zagreb, centar, Bauerova, zgrada Rössler, lift, balkon, spremište440.000 €4.632 €/m2",440.000 €,Istrien,Wohnung,2026-10-23,Entfernt/Verkauft
 7439151,"Stan: Čepin, 114.00 m2, 1.kat, novogradnja (prodaja)285.000 €2.500 €/m2",285.000 €,Istrien,Wohnung,2026-11-16,Entfernt/Verkauft
 7555413,"Stan:Velika Gorica-Kuče 110m2, režije uračunate800 €/mjesec",800 €/mjesec,Istrien,Wohnung,2026-09-25,Entfernt/Verkauft
-7455589,Stanovi od 54 i 64 m2 Osijek Donji grad199.000 €3.685 €/m2,199.000 €,Istrien,Wohnung,2026-11-21,Aktiv
+7455589,Stanovi od 54 i 64 m2 Osijek Donji grad199.000 €3.685 €/m2,199.000 €,Istrien,Wohnung,2026-11-21,Entfernt/Verkauft
 7682890,"Stančić (Ulica Starec) – 2 legalizirane vikendice na 2 parcele (1.264 m²), 2 priključka struje, voda135.000 €1.709 €/m2",135.000 €,Istrien,Wohnung,2026-11-16,Entfernt/Verkauft
 7510749,"Strmec- Sv.Nedelja, 240m2 , uređena kuća uz jezero s  bazenom i arteškim bunarom te posl. prostorom345.000 €1.438 €/m2",345.000 €,Istrien,Wohnung,2026-09-16,Entfernt/Verkauft
 7514294,"Strogi Centar Zagreba – 34 m², miran 2-sobni namješten stan s balkonom1.050 €850 €/mjesec",1.050 €,Istrien,Wohnung,2026-09-28,Entfernt/Verkauft
@@ -958,6 +968,7 @@ PRODAJE VLASNIK145.000 €3.905 €/m2",145.000 €,Istrien,Wohnung,2026-09-14,E
 7624165,"Studentski grad, Dubrava – 5-sobni stan, 108 m² –BEZ PROVIZIJE399.000 €370.000 €3.421 €/m2",399.000 €,Istrien,Wohnung,2026-11-14,Entfernt/Verkauft
 7583648,"Sveta Helena - Zelina, poslovno skladišni prostor od 800 m2 (prodaja)1.180.000 €1.475 €/m2",1.180.000 €,Istrien,Wohnung,2026-10-11,Entfernt/Verkauft
 7535625,"Sveta Klara – novogradnja, trosoban stan s lođom i parkingom – 750 € (iznajmljivanje)750 €/mjesec","Sveta Klara – novogradnja, trosoban stan s lođom i parkingom – 750 € (iznajmljivanje)",Istrien,Wohnung,2026-09-12,Entfernt/Verkauft
+7693640,"Svijetao apartman, Kustošija – odlična povezanost (Bez agencijske provizije)480 €/mjesec",480 €/mjesec,Istrien,Wohnung,2026-11-23,Aktiv
 7531597,TINNY HOUSE - NOVOGRADNJA155.000 €2.422 €/m2,155.000 €,Istrien,Wohnung,2026-09-11,Entfernt/Verkauft
 7657690,"TOP INVESTICIJA! Kuća s bazenom - idealna za najam, proslave i evente285.000 €2.850 €/m2",285.000 €,Istrien,Wohnung,2026-10-28,Entfernt/Verkauft
 7608508,"TOP LOKACIJA KOD KVATRIĆA, 42 m2 235.000 €5.595 €/m2",235.000 €,Istrien,Wohnung,2026-11-01,Entfernt/Verkauft
@@ -985,12 +996,14 @@ PRODAJE VLASNIK145.000 €3.905 €/m2",145.000 €,Istrien,Wohnung,2026-09-14,E
 7536718,"Trosoban stan – Zvonigradska ulica, Trešnjevka1.000 €/mjesec",1.000 €/mjesec,Istrien,Wohnung,2026-09-13,Entfernt/Verkauft
 7638924,Tuheljske toplice - Kuća 204m280.000 €392 €/m2,80.000 €,Istrien,Wohnung,2026-10-28,Entfernt/Verkauft
 7540585,"Turnić, 33 m2, odličan prilaz149.000 €4.537 €/m2",149.000 €,Istrien,Wohnung,2026-09-16,Entfernt/Verkauft
+7693125,"UGLJAN (kod resorta Ljoke) – Građevinsko zemljište 438 m², 300 m od mora, svi priključci!140.000 €320 €/m2",140.000 €,Istrien,Wohnung,2026-11-23,Aktiv
+7693129,UGLJAN – Građevinsko zemljište 421  m² s GRAĐEVINSKOM DOZVOLOM – Gradnja ODMAH!185.000 €439 €/m2,185.000 €,Istrien,Wohnung,2026-11-23,Aktiv
 7528444,UMAG - STAN S OKUĆNICOM U NOVOGRADNJI NA MIRNOJ LOKACIJI259.000 €3.700 €/m2,259.000 €,Istrien,Wohnung,2026-09-24,Entfernt/Verkauft
 7632356,Ugodna i moderna obiteljska kuća | Botinec (Novi Zagreb)365.000 €2.808 €/m2,365.000 €,Istrien,Wohnung,2026-10-25,Entfernt/Verkauft
 7639038,"Ulica Jordanovac 43m2  , parking osigurom rampom , vrt, dva balkona 254.500 €5.919 €/m2",254.500 €,Istrien,Wohnung,2026-10-28,Entfernt/Verkauft
 7520457,Uredna i povoljna vikendica na planini27.000 €312 €/m2,27.000 €,Istrien,Wohnung,2026-10-20,Entfernt/Verkauft
 7263969,"Uređen stan 77,54 čm prodaja Opatija/Pobri219.000 €2.824 €/m2",219.000 €,Istrien,Wohnung,2026-09-27,Entfernt/Verkauft
-7692911,"Utrina, iznajmljujem garsonjenu 21m2435 €/mjesec",435 €/mjesec,Istrien,Wohnung,2026-11-22,Aktiv
+7692911,"Utrina, iznajmljujem garsonjenu 21m2435 €/mjesec",435 €/mjesec,Istrien,Wohnung,2026-11-22,Entfernt/Verkauft
 7583694,"Utrine, renoviran 3-sobni stan 57 m², pogled na park, novi aparati, bez provizije900 €/mjesec",900 €/mjesec,Istrien,Wohnung,2026-10-02,Entfernt/Verkauft
 7511333,"VELIKO IMANJE IZMEĐU DVIJE RIJEKE, A BLIZU AUTOPUTA70.000 €680 €/m2",70.000 €,Istrien,Wohnung,2026-10-20,Entfernt/Verkauft
 7417065,VIKENDICA sa vinogradom i vočnjakom 3550 m235.550 €10 €/m2,35.550 €,Istrien,Wohnung,2026-11-03,Entfernt/Verkauft
@@ -1001,10 +1014,12 @@ PRODAJE VLASNIK145.000 €3.905 €/m2",145.000 €,Istrien,Wohnung,2026-09-14,E
 3663918,"Vaša vila 208m2 na okućnici od 9.704m2 gl cesta za Plitvice (29 km), na poklon 40.326m2 u blizini.80.000 €385 €/m2",80.000 €,Istrien,Wohnung,2026-09-18,Entfernt/Verkauft
 7659001,"Velika Gorica - novogradnja, 3-sobni, 78 m2, VPM - BEZ PROVIZIJE262.000 €3.371 €/m2",262.000 €,Istrien,Wohnung,2026-11-14,Entfernt/Verkauft
 7659004,"Velika Gorica - novogradnja, 3-sobni, 91 m2, GPM/VPM - BEZ PROVIZIJE297.050 €3.250 €/m2",297.050 €,Istrien,Wohnung,2026-11-06,Entfernt/Verkauft
+7659003,"Velika Gorica - novogradnja, 4-sobni, 102 m2, GPM/VPM - BEZ PROVIZIJE330.622 €3.250 €/m2",330.622 €,Istrien,Wohnung,2026-11-23,Aktiv
 7627653,"Velika Gorica centar, 3-sobni stan i GPM, 75 m² – BEZ PROVIZIJE299.000 €3.982 €/m2",299.000 €,Istrien,Wohnung,2026-10-13,Entfernt/Verkauft
 7681071,"Velika Gorica – novogradnja, 4-sobni stan s garažom i VPM, 94 m²327.250 €3.500 €/m2",327.250 €,Istrien,Wohnung,2026-11-14,Entfernt/Verkauft
 7664087,"Velika Gorica – vrhunska novogradnja, 3-sobni stan i VPM, 74 m²274.000 €3.728 €/m2",274.000 €,Istrien,Wohnung,2026-10-31,Entfernt/Verkauft
 7664088,"Velika Gorica – vrhunska novogradnja, 3-sobni stan i garaža, 92 m²341.500 €3.717 €/m2",341.500 €,Istrien,Wohnung,2026-10-31,Entfernt/Verkauft
+7664086,"Velika Gorica – vrhunska novogradnja, 4-sobni stan, garaža, VPM, 124 m²454.000 €3.676 €/m2",454.000 €,Istrien,Wohnung,2026-11-23,Aktiv
 7448710,"Velika Gorica, Centar, trosobni stan 73.88 m²240.000 €3.249 €/m2",240.000 €,Istrien,Wohnung,2026-09-26,Entfernt/Verkauft
 7673648,"Velika Mlaka – moderan trosobni stan, velika terasa i 2 parkinga265.000 €3.446 €/m2",265.000 €,Istrien,Wohnung,2026-11-08,Entfernt/Verkauft
 7501077,Velika građevinska parcela blizu obilaznice Turnja34.000 €16 €/m2,34.000 €,Istrien,Wohnung,2026-10-06,Entfernt/Verkauft
@@ -1022,10 +1037,11 @@ PRODAJE VLASNIK145.000 €3.905 €/m2",145.000 €,Istrien,Wohnung,2026-09-14,E
 7683183,Vikendica 140m2 Auguštanovec90.000 €643 €/m2,90.000 €,Istrien,Wohnung,2026-11-15,Entfernt/Verkauft
 7665948,Vikendica/kuća57.000 €1.140 €/m2,57.000 €,Istrien,Wohnung,2026-11-03,Entfernt/Verkauft
 7507816,Vila sa bazenom novogradnja1.350.000 €3.553 €/m2,1.350.000 €,Istrien,Wohnung,2026-09-18,Entfernt/Verkauft
+7683719,Virtualna šetnja- 3s Stan 82m2- Gornje Vrapče- Škalinova ulica347.000 €4.218 €/m2,347.000 €,Istrien,Wohnung,2026-11-23,Aktiv
 7284755,Virtualna šetnja-Prodaja-Stan 145m2-Maksimir-Gorice649.000 €598.000 €4.124 €/m2,649.000 €,Istrien,Wohnung,2026-10-15,Entfernt/Verkauft
 7542932,Višestambena kamena kuća s bazenom i pogledom na more- Supetar690.000 €1.725 €/m2,690.000 €,Istrien,Wohnung,2026-09-23,Entfernt/Verkauft
 7408468,"Vlasnik iznajmljuje stan Rijeka (Škurinje) za studente, 78m2, 2-sobni600 €/mjesec",600 €/mjesec,Istrien,Wohnung,2026-09-24,Entfernt/Verkauft
-7692724,"Vodice, apartman 40 m2, novouređen, parking, bazen, pogled na more, potpuno namješten235.000 €5.875 €/m2",235.000 €,Istrien,Wohnung,2026-11-22,Aktiv
+7692724,"Vodice, apartman 40 m2, novouređen, parking, bazen, pogled na more, potpuno namješten235.000 €5.875 €/m2",235.000 €,Istrien,Wohnung,2026-11-22,Entfernt/Verkauft
 7539087,"Vodice, jednosoban stan s terasom211.174 €3.573 €/m2",211.174 €,Istrien,Wohnung,2026-11-10,Entfernt/Verkauft
 7646129,Vodnjan top građevinsko zemljište 543m2 - pogled na more - 200m od centra99.000 €182 €/m2,99.000 €,Istrien,Wohnung,2026-11-05,Entfernt/Verkauft
 7657197,Vodnjan top građevinsko zemljište 543m2 - pogled na more95.000 €175 €/m2,95.000 €,Istrien,Wohnung,2026-11-04,Entfernt/Verkauft
@@ -1089,7 +1105,7 @@ PRODAJE VLASNIK145.000 €3.905 €/m2",145.000 €,Istrien,Wohnung,2026-09-14,E
 7394471,"ŠIBENIK – GORICA, KUĆA S POTENCIJALOM – PRILIKA!!!120.000 €1.333 €/m2",120.000 €,Istrien,Wohnung,2026-10-14,Entfernt/Verkauft
 6790595,"ŠIBENIK – PLIŠAC | Renoviran stan, 3 spavaće sobe, privatni parking i uhodan turistički najam563.500 €450.000 €3.879 €/m2",563.500 €,Istrien,Wohnung,2026-11-01,Entfernt/Verkauft
 7631349,ŠMRIKA - GRAĐEVINSKO ZEMLJIŠTE SA IDEJNIM PROJEKTOM I GRAĐEVINSKOM DOZVOLOM POVRŠINE 881 m2179.000 €203 €/m2,179.000 €,Istrien,Wohnung,2026-10-12,Entfernt/Verkauft
-7692377,ŠPANSKO | 40 m² | DIZAJNERSKI UREĐEN STAN | PRVI NAJAM800 €/mjesec,800 €/mjesec,Istrien,Wohnung,2026-11-22,Aktiv
+7692377,ŠPANSKO | 40 m² | DIZAJNERSKI UREĐEN STAN | PRVI NAJAM800 €/mjesec,800 €/mjesec,Istrien,Wohnung,2026-11-22,Entfernt/Verkauft
 7502750,Šarmantna istarska kamena kuća s grijanim bazenom i pogledom na more445.000 €2.602 €/m2,445.000 €,Istrien,Wohnung,2026-09-26,Entfernt/Verkauft
 7635082,"Šenkovec Zemljište 731m2 + GOTOV PROJEKT kuće 82 m2,dozvola u postupku45.000 €62 €/m2",45.000 €,Istrien,Wohnung,2026-11-13,Entfernt/Verkauft
 7662356,"Šibenik, Centar, 68 m2, 3 spavaće + DB700 €/mjesec",700 €/mjesec,Istrien,Wohnung,2026-10-30,Entfernt/Verkauft
